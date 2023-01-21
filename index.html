@@ -14,47 +14,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"/>
-    <title>project name</title>
+    <title src="images/logo.png">Lupe Systems</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="header">
-        <h1 class="logo">jalt</h1>
+        <img class="logo" src="images/logo.png">
         <section class="tabs">
-            <button>Our service</button>
-            <button>About us</button>
-            <button>Integrate</button>
+            <button class="header_buttons">Our Service</button>
+            <button class="header_buttons">For Investors</button>
+            <button class="header_buttons">About Us</button>
+            <button class="header_buttons" id="subscribe_button">Subscribe</button> 
         </section>
     </header>
-    <hr/>
-    <main class="container">
-        <section class="service">
-            <p>Our service</p>
-            <p class="service_header">save money.<br> save the planet.</p>
-            <p class="service_content">
-                A disposable vape re-use service, <br>
-                We are on a mission to rid the streets of wasted vapes, <br>
-                Save with subscription, save with returns, save the planet by reducing waste!
-            </p>
-            <button>view our deals!</button>
+
+    <main class="mainpage">
+        <section class="landing">
+            <img class="background_image" src="images/background.png">
+            <img class="vending_machine" src="images/vendingmachine.png">
+            <div class="landing_content">
+                <p class="landing_header">Return, Reward <br>and Repower</p>
+                <p class="landing_subheaders">
+                    <p class="landing_subheader1">A disposable vape re-use service.</p>
+                    <p class="landing_subheader2">Return your vapes, get rewarded, and we take  <br> care of the recycling to repower the planet.</p>
+                </p>
+            </div>
+            
         </section>
-        <section class="about">
-            <p class="about_header">About us</p>
-            <p class="about_content">
-                Utilising a circular system, <br>
-                allows you to save money <br>
-                by returning your vapes. <br>
-                We recover the materials <br>
-                and re-use them. <br>
+    <hr>    
+
+        <section class="pilot_scheme">
+            <p class="pilot_header">Sign up for our pilot scheme</p>
+            <p class="pilot_content">
+                <textarea class="textarea">Name</textarea>
+                <textarea class="textarea">Email</textarea>
+                <button class="signup_button"> Sign up</button>
             </p>
-            <button>Learn more about our system!</button>
-        </section>
-        <section class="integrate">
-            <p>Integrate</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/6k01DIVDJlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
         
+        <!-- <section class="integrate">
+            <p>Integrate</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6k01DIVDJlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section> -->
+        
     </main>
-    <hr>
+
     <footer>
         <p>legal shit</p>
     </footer>

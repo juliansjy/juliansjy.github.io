@@ -1,7 +1,9 @@
 * {
-    background-color: #E8F9E1;
-    font-family: Heiti SC;
-    padding: 0px 24px;
+    background-color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    
 }
 
 .header {
@@ -9,46 +11,170 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 32px 120px;
+    padding: 32px 100px
+}
 
-    /* flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;  */
+.logo {
+    width: 103.55px;
+    height: 32px;   
 }
 
 .tabs {
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
-    align-items: flex-start;
-    gap: 24px;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    height: 40px;
 }
 
-/* .container {
+.header_buttons {
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px;
+}
+
+.header_buttons:hover, .header_buttons:focus {
+    text-decoration: underline;
+}
+
+#subscribe_button {
+    padding: 2px;
+    outline: auto;
+    outline-offset: 15px;
+}
+
+.landing {
+    display: block;
+    /* position: fixed; */
+    justify-content: center;
+
+
+    /* align-items: center; */
+    /* min-height: 450px; */
+}
+
+.background_image {
+    width: 100%;
+    min-height: 650px;
+    /* align-self: stretch; */
+    /* box-sizing: border-box; */
+    align-self: auto;
+    position: relative;
+    /* background-position: center; */
+    /* top: 0px;
+    left: 0px; 
+    z-index: 1; */
+    display: flex; /* block */
+    justify-content: center;
+    flex-direction: row;
+}
+
+.vending_machine {
+    display: flex;
+    justify-content: flex-end;
+    align-self: auto;
+    /* height: 80%;  */
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+    background: none;
+}
+
+.landing_content {
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    background: none;
+    text-align: left;
+    /* align-items: center; */
+}
+
+.landing_header {
+    background: none;
+    font-weight: 700;
+    font-size: 80px;
+    margin: 100px 0 0 0;
+}
+
+.landing_subheaders {
+    background: none;
+    font-weight: 90;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    line-height: 50px;
+}
+
+.landing_subheader1 {
+    background: none;
+    font-weight: 90;
+    font-size: 24px;
+    margin: 10px 0 0 0;
+    line-height: 50px;
+}
+
+.landing_subheader2 {
+    background: none;
+    font-weight: 90;
+    font-size: 24px;
+    margin: 10px 0 0 0;
+    line-height: 30px;
+}
+
+#subscribe_button {
+    /* outline: 2px solid #000000; */
+    /* border:rgba(198, 229, 164, 0) */
+    border-radius: 10px;
+    /* outline-width: 2px; */
+}
+
+.pilot_scheme {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    margin: 120px;
+    padding: 32px;
     gap: 32px;
+    background: linear-gradient(94.79deg, #C6E5A4 35.12%, rgba(198, 229, 164, 0) 149.11%);
+    border-radius: 36px;  
+    text-align: center;  
 }
 
-
-
-.service_header {
-    width: 436px;
-    height: 114px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 60px;
+.pilot_content {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
 }
 
-.service_content {
-    width: 934.28px;
-    height: 91px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 25px;
-} */
+.pilot_header {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0 0 0 0;
+    background: none;
+    justify-content: center;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 12px;
+    width: 328px;
+    height: 52px;
+    padding: 0px;
+}
+
+.signup_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px 8px 24px;
+    align-self: stretch;
+    border-radius: 12px;
+}
